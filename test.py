@@ -9,4 +9,4 @@ angka_kedua = st.number_input('Masukkan angka kedua')
 st.write('The second number is', angka_kedua)
 
 operasi_matematika = angka_pertama * angka_kedua
-st.write(F"Angka pertama (angka_pertama) x Angka kedua (angka_kedua) = (operasi_matematika)")
+st.write(f"Angka pertama {angka_pertama} x Angka kedua {angka_kedua} = {operasi_matematika}")
